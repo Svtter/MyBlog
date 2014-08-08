@@ -10,4 +10,4 @@ I will write some article on it
 
 - [download from CSDN free](http://www.juming.com/csdn/)
 
-- [learning python](python/index.md]
+- [learning python](python/index.md)
