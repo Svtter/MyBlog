@@ -17,3 +17,4 @@
 |2014.08.05|  二|AC  |AC  |AC  |AC  |AC  |WA  |AC  |WA  |没睡好，想太多|
 |2014.08.06|  三|AC  |AC  |AC  |AC  |AC  |WA  |WA  |AC  |看了不少关于blog搭建的东西|
 |2014.08.07|  四|AC  |AC  |AC  |AC  |AC  |WA  |WA  |AC  |看了不少关于blog搭建的东西|
+|2014.08.08|  五|AC  |WA  |AC  |AC  |AC  |AC  |AC  |AC  |上午整理了图论的内容，下午讲了基础|
