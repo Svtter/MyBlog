@@ -1,8 +1,8 @@
 Svtter's Blog
 ======
 
-##This is my blog in Github
-I will write some article on it
+  This is my blog in Github
+  I will write some article on it
 
 - [planList](planList/)
 
