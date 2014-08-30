@@ -8,7 +8,7 @@ Svtter's Blog
 
 - [learning python](Python/)
 
-- [learing Linux](Linux/)
+- [learning Linux](Linux/)
 
 - [mark the way to get internet](http://blog.segmentfault.com/wapeyang/1190000000489420)
 
