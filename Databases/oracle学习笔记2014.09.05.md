@@ -47,7 +47,31 @@ sys以及system解锁
 - 如果使用sys，需要密码后添加 as sysdba
 
 ###查询块大小
-- select name,value from V$parameter where name='db_block_size';
+- `select name,value from V$parameter where name='db_block_size'`;
 - 需要使用sys
 
-###
+###查询表空间
+- select  tablespace_name from dba_tablespaces;
+
+TABLESPACE_NAME               |                                                  
+------------------------------|                                                  
+SYSTEM                        |表定义                                                   
+UNDOTBS1                      |事物回滚                                                   
+SYSAUX                        |辅助表空间                                                   
+TEMP                          |临时表空间                                                   
+USERS                         |用户表空间                                              
+
+
+###查询控制文件，pfile
+- show parameter control_files
+- show parameter pfile
+	- select name from V$controlfile;
+
+`从java到oracle到mysql`
+
+###数据文件
+- select name from v$datafile;
+
+###授权用户scott为sysdba用户，并且使用scott登陆
+- grant sysdba to scott;
+- conn scott/tiger as sysdba
