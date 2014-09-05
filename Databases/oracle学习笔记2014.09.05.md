@@ -9,7 +9,11 @@ oracle学习笔记2014.09.05
 服务器参数文件名：c:\oracle\dbs\spfilexiuhao.ora
 
 database control URL: 
-```[http://C-1:5500/em](http://C-1:5500/em)
+```
+
+[http://C-1:5500/em](http://C-1:5500/em)
+
+
 ```
 sys以及system解锁
 
