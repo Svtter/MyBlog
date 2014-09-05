@@ -53,7 +53,7 @@ sys以及system解锁
 ###查询表空间
 - select  tablespace_name from dba_tablespaces;
 
-TABLESPACE_NAME               |                                                  
+TABLESPACE_NAME| comment                                                 
 ------------------------------|----                                                  
 SYSTEM                        |表定义                                                   
 UNDOTBS1                      |事物回滚                                                   
