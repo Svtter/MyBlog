@@ -38,12 +38,12 @@ sys以及system解锁
 在密码后添加as sysdba
 
 ###锁定\解锁用户
-- alter user [username] account unlock;
+- `alter user [username] account unlock;`
 - ***需要sys权限***
 
 ###链接用户
-- conn [username]/[passwd]
-- conn / as sysdba(默认sys用户)
+- `conn [username]/[passwd]`
+- `conn / as sysdba`(默认sys用户)
 - 如果使用sys，需要密码后添加 as sysdba
 
 ###查询块大小
@@ -54,7 +54,7 @@ sys以及system解锁
 - select  tablespace_name from dba_tablespaces;
 
 TABLESPACE_NAME               |                                                  
-------------------------------|                                                  
+------------------------------|----                                                  
 SYSTEM                        |表定义                                                   
 UNDOTBS1                      |事物回滚                                                   
 SYSAUX                        |辅助表空间                                                   
@@ -63,15 +63,15 @@ USERS                         |用户表空间
 
 
 ###查询控制文件，pfile
-- show parameter control_files
-- show parameter pfile
-	- select name from V$controlfile;
+- `show parameter control_files`
+- `show parameter pfile`
+	- `select name from V$controlfile;`
 
 `从java到oracle到mysql`
 
 ###数据文件
-- select name from v$datafile;
+- `select name from v$datafile;`
 
 ###授权用户scott为sysdba用户，并且使用scott登陆
-- grant sysdba to scott;
-- conn scott/tiger as sysdba
+- `grant sysdba to scott;`
+- `conn scott/tiger as sysdba`
