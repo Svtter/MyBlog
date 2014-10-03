@@ -1,4 +1,0 @@
-#!/bin/bash
-
-cd 完成情况/
-gvim $(date|awk '{print $1$2$3}').md
