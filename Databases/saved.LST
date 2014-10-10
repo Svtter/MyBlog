@@ -1,0 +1,851 @@
+SQL> set pause on
+SQL> select empno * from scott.emp
+  2  ;
+select empno * from scott.emp
+               *
+第 1 行出现错误: 
+ORA-00936: 缺失表达式 
+
+
+SQL> select empno from scott.emp
+  2  ;
+press enter to continue...
+
+
+                      EMPNO                                                                         
+---------------------------                                                                         
+                   7,369.00                                                                         
+                   7,499.00                                                                         
+                   7,521.00                                                                         
+                   7,566.00                                                                         
+                   7,654.00                                                                         
+                   7,698.00                                                                         
+                   7,782.00                                                                         
+                   7,788.00                                                                         
+                   7,839.00                                                                         
+                   7,844.00                                                                         
+                   7,876.00                                                                         
+                   7,900.00                                                                         
+                   7,902.00                                                                         
+                   7,934.00                                                                         
+
+已选择14行。
+
+SQL> /
+press enter to continue...
+
+
+                      EMPNO                                                                         
+---------------------------                                                                         
+                   7,369.00                                                                         
+                   7,499.00                                                                         
+                   7,521.00                                                                         
+                   7,566.00                                                                         
+                   7,654.00                                                                         
+                   7,698.00                                                                         
+                   7,782.00                                                                         
+                   7,788.00                                                                         
+                   7,839.00                                                                         
+                   7,844.00                                                                         
+                   7,876.00                                                                         
+                   7,900.00                                                                         
+                   7,902.00                                                                         
+                   7,934.00                                                                         
+
+已选择14行。
+
+SQL> set pause 'press Enter to continue...'
+SQL> show pagesize
+pagesize 30
+SQL> set pagesize 40
+SQL> select empno, ename, sal from scott.emp
+  2  ;
+press Enter to continue...
+
+
+                      EMPNO ENAME                              SAL                                  
+--------------------------- ---------- ---------------------------                                  
+                   7,369.00 SMITH                           800.00                                  
+                   7,499.00 ALLEN                         1,600.00                                  
+                   7,521.00 WARD                          1,250.00                                  
+                   7,566.00 JONES                         2,975.00                                  
+                   7,654.00 MARTIN                        1,250.00                                  
+                   7,698.00 BLAKE                         2,850.00                                  
+                   7,782.00 CLARK                         2,450.00                                  
+                   7,788.00 SCOTT                         3,000.00                                  
+                   7,839.00 KING                          5,000.00                                  
+                   7,844.00 TURNER                        1,500.00                                  
+                   7,876.00 ADAMS                         1,100.00                                  
+                   7,900.00 JAMES                           950.00                                  
+                   7,902.00 FORD                          3,000.00                                  
+                   7,934.00 MILLER                        1,300.00                                  
+
+已选择14行。
+
+SQL> show newpage
+newpage 3
+SQL> set newpage 2
+SQL> /
+press Enter to continue...
+
+                      EMPNO ENAME                              SAL                                  
+--------------------------- ---------- ---------------------------                                  
+                   7,369.00 SMITH                           800.00                                  
+                   7,499.00 ALLEN                         1,600.00                                  
+                   7,521.00 WARD                          1,250.00                                  
+                   7,566.00 JONES                         2,975.00                                  
+                   7,654.00 MARTIN                        1,250.00                                  
+                   7,698.00 BLAKE                         2,850.00                                  
+                   7,782.00 CLARK                         2,450.00                                  
+                   7,788.00 SCOTT                         3,000.00                                  
+                   7,839.00 KING                          5,000.00                                  
+                   7,844.00 TURNER                        1,500.00                                  
+                   7,876.00 ADAMS                         1,100.00                                  
+                   7,900.00 JAMES                           950.00                                  
+                   7,902.00 FORD                          3,000.00                                  
+                   7,934.00 MILLER                        1,300.00                                  
+
+已选择14行。
+
+SQL> set newpage 1
+SQL> /
+press Enter to continue...
+                      EMPNO ENAME                              SAL                                  
+--------------------------- ---------- ---------------------------                                  
+                   7,369.00 SMITH                           800.00                                  
+                   7,499.00 ALLEN                         1,600.00                                  
+                   7,521.00 WARD                          1,250.00                                  
+                   7,566.00 JONES                         2,975.00                                  
+                   7,654.00 MARTIN                        1,250.00                                  
+                   7,698.00 BLAKE                         2,850.00                                  
+                   7,782.00 CLARK                         2,450.00                                  
+                   7,788.00 SCOTT                         3,000.00                                  
+                   7,839.00 KING                          5,000.00                                  
+                   7,844.00 TURNER                        1,500.00                                  
+                   7,876.00 ADAMS                         1,100.00                                  
+                   7,900.00 JAMES                           950.00                                  
+                   7,902.00 FORD                          3,000.00                                  
+                   7,934.00 MILLER                        1,300.00                                  
+
+已选择14行。
+
+SQL> show linesize3
+linesize 100
+SP2-0158: 未知的 SHOW 选项 "3"
+SQL> /
+press Enter to continue...
+                      EMPNO ENAME                              SAL                                  
+--------------------------- ---------- ---------------------------                                  
+                   7,369.00 SMITH                           800.00                                  
+                   7,499.00 ALLEN                         1,600.00                                  
+                   7,521.00 WARD                          1,250.00                                  
+                   7,566.00 JONES                         2,975.00                                  
+                   7,654.00 MARTIN                        1,250.00                                  
+                   7,698.00 BLAKE                         2,850.00                                  
+                   7,782.00 CLARK                         2,450.00                                  
+                   7,788.00 SCOTT                         3,000.00                                  
+                   7,839.00 KING                          5,000.00                                  
+                   7,844.00 TURNER                        1,500.00                                  
+                   7,876.00 ADAMS                         1,100.00                                  
+                   7,900.00 JAMES                           950.00                                  
+                   7,902.00 FORD                          3,000.00                                  
+                   7,934.00 MILLER                        1,300.00                                  
+
+已选择14行。
+
+SQL> show linesize
+linesize 100
+SQL> select *from numsample;
+press Enter to continue...
+                        NUM                                                                         
+---------------------------                                                                         
+           1,234,567,890.00                                                                         
+           1,234,567,890.00                                                                         
+       1,234,567,890,123.00                                                                         
+
+SQL> set pause off
+SQL> set timing on
+SQL> /
+
+                        NUM                                                                         
+---------------------------                                                                         
+           1,234,567,890.00                                                                         
+           1,234,567,890.00                                                                         
+       1,234,567,890,123.00                                                                         
+
+已用时间:  00: 00: 00.01
+SQL> /
+
+                        NUM                                                                         
+---------------------------                                                                         
+           1,234,567,890.00                                                                         
+           1,234,567,890.00                                                                         
+       1,234,567,890,123.00                                                                         
+
+已用时间:  00: 00: 00.00
+SQL> /
+
+                        NUM                                                                         
+---------------------------                                                                         
+           1,234,567,890.00                                                                         
+           1,234,567,890.00                                                                         
+       1,234,567,890,123.00                                                                         
+
+已用时间:  00: 00: 00.00
+SQL> help index
+
+Enter Help [topic] for help.
+
+ @             COPY         PAUSE                    SHUTDOWN
+ @@            DEFINE       PRINT                    SPOOL
+ /             DEL          PROMPT                   SQLPLUS
+ ACCEPT        DESCRIBE     QUIT                     START
+ APPEND        DISCONNECT   RECOVER                  STARTUP
+ ARCHIVE LOG   EDIT         REMARK                   STORE
+ ATTRIBUTE     EXECUTE      REPFOOTER                TIMING
+ BREAK         EXIT         REPHEADER                TTITLE
+ BTITLE        GET          RESERVED WORDS (SQL)     UNDEFINE
+ CHANGE        HELP         RESERVED WORDS (PL/SQL)  VARIABLE
+ CLEAR         HOST         RUN                      WHENEVER OSERROR
+ COLUMN        INPUT        SAVE                     WHENEVER SQLERROR
+ COMPUTE       LIST         SET
+ CONNECT       PASSWORD     SHOW
+
+
+SQL> help @
+
+ @ ("at" sign)
+ -------------
+ Runs the SQL*Plus statements in the specified script. The script can be
+ called from the local file system or a web server. Only the url form is
+ supported in iSQL*Plus.
+
+ @ {url|file_name[.ext]} [arg ...]
+
+ where url supports HTTP and FTP protocols in the form:
+
+    http://host.domain/script.sql
+
+
+ @@ (double "at" sign)
+ ---------------------
+
+ Runs the specified script. This command is almost identical to
+ the @ command. It is useful for running nested scripts because it
+ has the additional functionality of looking for the nested script
+ in the same url or path as the calling script. Only the url form
+ is supported in iSQL*Plus.
+
+ @@ {url|file_name[.ext]} [arg ...]
+
+
+SQL> select empno, ename, sal from scott.emp;
+
+                      EMPNO ENAME                              SAL                                  
+--------------------------- ---------- ---------------------------                                  
+                   7,369.00 SMITH                           800.00                                  
+                   7,499.00 ALLEN                         1,600.00                                  
+                   7,521.00 WARD                          1,250.00                                  
+                   7,566.00 JONES                         2,975.00                                  
+                   7,654.00 MARTIN                        1,250.00                                  
+                   7,698.00 BLAKE                         2,850.00                                  
+                   7,782.00 CLARK                         2,450.00                                  
+                   7,788.00 SCOTT                         3,000.00                                  
+                   7,839.00 KING                          5,000.00                                  
+                   7,844.00 TURNER                        1,500.00                                  
+                   7,876.00 ADAMS                         1,100.00                                  
+                   7,900.00 JAMES                           950.00                                  
+                   7,902.00 FORD                          3,000.00                                  
+                   7,934.00 MILLER                        1,300.00                                  
+
+已选择14行。
+
+已用时间:  00: 00: 00.01
+SQL> desc scott.emp
+ 名称                                                  是否为空? 类型
+ ----------------------------------------------------- -------- ------------------------------------
+ EMPNO                                                 NOT NULL NUMBER(4)
+ ENAME                                                          VARCHAR2(10)
+ JOB                                                            VARCHAR2(9)
+ MGR                                                            NUMBER(4)
+ HIREDATE                                                       DATE
+ SAL                                                            NUMBER(7,2)
+ COMM                                                           NUMBER(7,2)
+ DEPTNO                                                         NUMBER(2)
+
+SQL> prompt '显示当前用户及其默认的表空间'
+'显示当前用户及其默认的表空间'
+SQL> prompt
+
+SQL> l
+  1* select empno, ename, sal from scott.emp
+SQL> 
+SQL> prompt '显示当前用户及其默认的表空间'
+'显示当前用户及其默认的表空间'
+SQL> prompt
+
+SQL> select username, default_tablespace from user_users;
+
+USERNAME                       DEFAULT_TABLESPACE                                                   
+------------------------------ ------------------------------                                       
+SYS                            SYSTEM                                                               
+
+已用时间:  00: 00: 00.00
+SQL> spo off
+SQL> @ c:/command.sql
+
+'show cur_user and default_tablespace'
+
+
+USERNAME                       DEFAULT_TABLESPACE                                                   
+------------------------------ ------------------------------                                       
+SYS                            SYSTEM                                                               
+
+已用时间:  00: 00: 00.00
+SQL> column sal format $999,999.00
+SQL> select empno, ename, sal
+  2  from scott.emp;
+
+                      EMPNO ENAME               SAL                                                 
+--------------------------- ---------- ------------                                                 
+                   7,369.00 SMITH           $800.00                                                 
+                   7,499.00 ALLEN         $1,600.00                                                 
+                   7,521.00 WARD          $1,250.00                                                 
+                   7,566.00 JONES         $2,975.00                                                 
+                   7,654.00 MARTIN        $1,250.00                                                 
+                   7,698.00 BLAKE         $2,850.00                                                 
+                   7,782.00 CLARK         $2,450.00                                                 
+                   7,788.00 SCOTT         $3,000.00                                                 
+                   7,839.00 KING          $5,000.00                                                 
+                   7,844.00 TURNER        $1,500.00                                                 
+                   7,876.00 ADAMS         $1,100.00                                                 
+                   7,900.00 JAMES           $950.00                                                 
+                   7,902.00 FORD          $3,000.00                                                 
+                   7,934.00 MILLER        $1,300.00                                                 
+
+已选择14行。
+
+已用时间:  00: 00: 00.01
+SQL> column job format a5 wrapped
+SQL> /
+
+                      EMPNO ENAME               SAL                                                 
+--------------------------- ---------- ------------                                                 
+                   7,369.00 SMITH           $800.00                                                 
+                   7,499.00 ALLEN         $1,600.00                                                 
+                   7,521.00 WARD          $1,250.00                                                 
+                   7,566.00 JONES         $2,975.00                                                 
+                   7,654.00 MARTIN        $1,250.00                                                 
+                   7,698.00 BLAKE         $2,850.00                                                 
+                   7,782.00 CLARK         $2,450.00                                                 
+                   7,788.00 SCOTT         $3,000.00                                                 
+                   7,839.00 KING          $5,000.00                                                 
+                   7,844.00 TURNER        $1,500.00                                                 
+                   7,876.00 ADAMS         $1,100.00                                                 
+                   7,900.00 JAMES           $950.00                                                 
+                   7,902.00 FORD          $3,000.00                                                 
+                   7,934.00 MILLER        $1,300.00                                                 
+
+已选择14行。
+
+已用时间:  00: 00: 00.01
+SQL> select empno, ename, job,sal
+  2  from emp;
+from emp
+     *
+第 2 行出现错误: 
+ORA-00942: 表或视图不存在 
+
+
+已用时间:  00: 00: 00.00
+SQL> l1
+  1* select empno, ename, job,sal
+SQL> l
+  1  select empno, ename, job,sal
+  2* from emp
+SQL> c /emp/scott.emp
+  2* from scott.emp
+SQL> l
+  1  select empno, ename, job,sal
+  2* from scott.emp
+SQL> /
+
+                      EMPNO ENAME      JOB            SAL                                           
+--------------------------- ---------- ----- ------------                                           
+                   7,369.00 SMITH      CLERK      $800.00                                           
+                   7,499.00 ALLEN      SALES    $1,600.00                                           
+                                       MAN                                                          
+                                                                                                    
+                   7,521.00 WARD       SALES    $1,250.00                                           
+                                       MAN                                                          
+                                                                                                    
+                   7,566.00 JONES      MANAG    $2,975.00                                           
+                                       ER                                                           
+                                                                                                    
+                   7,654.00 MARTIN     SALES    $1,250.00                                           
+                                       MAN                                                          
+                                                                                                    
+                   7,698.00 BLAKE      MANAG    $2,850.00                                           
+                                       ER                                                           
+                                                                                                    
+                   7,782.00 CLARK      MANAG    $2,450.00                                           
+                                       ER                                                           
+                                                                                                    
+                   7,788.00 SCOTT      ANALY    $3,000.00                                           
+                                       ST                                                           
+                                                                                                    
+                   7,839.00 KING       PRESI    $5,000.00                                           
+                                       DENT                                                         
+                                                                                                    
+                   7,844.00 TURNER     SALES    $1,500.00                                           
+                                       MAN                                                          
+                                                                                                    
+                   7,876.00 ADAMS      CLERK    $1,100.00                                           
+                   7,900.00 JAMES      CLERK      $950.00                                           
+                   7,902.00 FORD       ANALY    $3,000.00                                           
+                                       ST                                                           
+                                                                                                    
+                   7,934.00 MILLER     CLERK    $1,300.00                                           
+
+已选择14行。
+
+已用时间:  00: 00: 00.03
+SQL> help column
+
+ COLUMN
+ ------
+
+ Specifies display attributes for a given column, such as:
+     - text for the column heading
+     - alignment for the column heading
+     - format for NUMBER data
+     - wrapping of column data
+ Also lists the current display attributes for a single column
+ or all columns.
+
+ COL[UMN] [{column | expr} [option ...] ]
+
+ where option represents one of the following clauses:
+     ALI[AS] alias
+     CLE[AR]
+     ENTMAP {ON|OFF}
+     FOLD_A[FTER]
+     FOLD_B[EFORE]
+     FOR[MAT] format
+     HEA[DING] text
+     JUS[TIFY] {L[EFT] | C[ENTER] | R[IGHT]}
+     LIKE {expr | alias}
+     NEWL[INE]
+     NEW_V[ALUE] variable
+     NOPRI[NT] | PRI[NT]
+     NUL[L] text
+     OLD_V[ALUE] variable
+     ON|OFF
+     WRA[PPED] | WOR[D_WRAPPED] | TRU[NCATED]
+
+
+SQL> col empno heading 工作编号
+SQL> col ename heading 姓名
+SQL> col sal heading 工资
+SQL> select empno, ename, sal
+  2  from scott.emp;
+
+                   工作编号 姓名               工资                                                 
+--------------------------- ---------- ------------                                                 
+                   7,369.00 SMITH           $800.00                                                 
+                   7,499.00 ALLEN         $1,600.00                                                 
+                   7,521.00 WARD          $1,250.00                                                 
+                   7,566.00 JONES         $2,975.00                                                 
+                   7,654.00 MARTIN        $1,250.00                                                 
+                   7,698.00 BLAKE         $2,850.00                                                 
+                   7,782.00 CLARK         $2,450.00                                                 
+                   7,788.00 SCOTT         $3,000.00                                                 
+                   7,839.00 KING          $5,000.00                                                 
+                   7,844.00 TURNER        $1,500.00                                                 
+                   7,876.00 ADAMS         $1,100.00                                                 
+                   7,900.00 JAMES           $950.00                                                 
+                   7,902.00 FORD          $3,000.00                                                 
+                   7,934.00 MILLER        $1,300.00                                                 
+
+已选择14行。
+
+已用时间:  00: 00: 00.03
+SQL> col sal
+COLUMN   sal ON
+HEADING  '工资'
+FORMAT   $999,999.00
+SQL> col empno off
+SQL> /
+
+                      EMPNO 姓名               工资                                                 
+--------------------------- ---------- ------------                                                 
+                   7,369.00 SMITH           $800.00                                                 
+                   7,499.00 ALLEN         $1,600.00                                                 
+                   7,521.00 WARD          $1,250.00                                                 
+                   7,566.00 JONES         $2,975.00                                                 
+                   7,654.00 MARTIN        $1,250.00                                                 
+                   7,698.00 BLAKE         $2,850.00                                                 
+                   7,782.00 CLARK         $2,450.00                                                 
+                   7,788.00 SCOTT         $3,000.00                                                 
+                   7,839.00 KING          $5,000.00                                                 
+                   7,844.00 TURNER        $1,500.00                                                 
+                   7,876.00 ADAMS         $1,100.00                                                 
+                   7,900.00 JAMES           $950.00                                                 
+                   7,902.00 FORD          $3,000.00                                                 
+                   7,934.00 MILLER        $1,300.00                                                 
+
+已选择14行。
+
+已用时间:  00: 00: 00.03
+SQL> col empno
+COLUMN   empno OFF
+HEADING  '工作编号'
+SQL> col empno on
+SQL> /
+
+                   工作编号 姓名               工资                                                 
+--------------------------- ---------- ------------                                                 
+                   7,369.00 SMITH           $800.00                                                 
+                   7,499.00 ALLEN         $1,600.00                                                 
+                   7,521.00 WARD          $1,250.00                                                 
+                   7,566.00 JONES         $2,975.00                                                 
+                   7,654.00 MARTIN        $1,250.00                                                 
+                   7,698.00 BLAKE         $2,850.00                                                 
+                   7,782.00 CLARK         $2,450.00                                                 
+                   7,788.00 SCOTT         $3,000.00                                                 
+                   7,839.00 KING          $5,000.00                                                 
+                   7,844.00 TURNER        $1,500.00                                                 
+                   7,876.00 ADAMS         $1,100.00                                                 
+                   7,900.00 JAMES           $950.00                                                 
+                   7,902.00 FORD          $3,000.00                                                 
+                   7,934.00 MILLER        $1,300.00                                                 
+
+已选择14行。
+
+已用时间:  00: 00: 00.03
+SQL> col ename
+COLUMN   ename ON
+HEADING  '姓名'
+SQL> col ename clear
+SQL> col ename
+SP2-0046: COLUMN 'ename' 未定义
+SQL> ttitle center '职工信息表'
+SQL> btitle left '2008/03/15;
+字符串开头 "'2008/03/1..."缺失结束引号 (')。
+SQL> l
+  1  select empno, ename, sal
+  2* from scott.emp
+SQL> btitle left '2008/03/15';
+SQL> select empno, ename, sal
+  2  from scott.emp;
+
+                                             职工信息表                                             
+                   工作编号 ENAME              工资                                                 
+--------------------------- ---------- ------------                                                 
+                   7,369.00 SMITH           $800.00                                                 
+                   7,499.00 ALLEN         $1,600.00                                                 
+                   7,521.00 WARD          $1,250.00                                                 
+                   7,566.00 JONES         $2,975.00                                                 
+                   7,654.00 MARTIN        $1,250.00                                                 
+                   7,698.00 BLAKE         $2,850.00                                                 
+                   7,782.00 CLARK         $2,450.00                                                 
+                   7,788.00 SCOTT         $3,000.00                                                 
+                   7,839.00 KING          $5,000.00                                                 
+                   7,844.00 TURNER        $1,500.00                                                 
+                   7,876.00 ADAMS         $1,100.00                                                 
+                   7,900.00 JAMES           $950.00                                                 
+                   7,902.00 FORD          $3,000.00                                                 
+                   7,934.00 MILLER        $1,300.00                                                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2008/03/15                                                                                          
+
+已选择14行。
+
+已用时间:  00: 00: 00.06
+SQL> set pause on
+SQL> /
+press Enter to continue...
+                                             职工信息表                                             
+                   工作编号 ENAME              工资                                                 
+--------------------------- ---------- ------------                                                 
+                   7,369.00 SMITH           $800.00                                                 
+                   7,499.00 ALLEN         $1,600.00                                                 
+                   7,521.00 WARD          $1,250.00                                                 
+                   7,566.00 JONES         $2,975.00                                                 
+                   7,654.00 MARTIN        $1,250.00                                                 
+                   7,698.00 BLAKE         $2,850.00                                                 
+                   7,782.00 CLARK         $2,450.00                                                 
+                   7,788.00 SCOTT         $3,000.00                                                 
+                   7,839.00 KING          $5,000.00                                                 
+                   7,844.00 TURNER        $1,500.00                                                 
+                   7,876.00 ADAMS         $1,100.00                                                 
+                   7,900.00 JAMES           $950.00                                                 
+                   7,902.00 FORD          $3,000.00                                                 
+                   7,934.00 MILLER        $1,300.00                                                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2008/03/15                                                                                          
+
+已选择14行。
+
+已用时间:  00: 00: 00.65
+SQL> accept salary number prompt 'please input sal:
+字符串开头 "'please in..."缺失结束引号 (')。
+SP2-0003: 以 'please input sal: 开头的 ACCEPT 命令格式错误
+SQL> l
+  1  select empno, ename, sal
+  2* from scott.emp
+SQL> help accept
+
+ ACCEPT
+ ------
+
+ Reads a line of input and stores it in a given substitution variable.
+ In iSQL*Plus, displays the Input Required screen for you to enter a
+ value for the substitution variable.
+
+ ACC[EPT] variable [NUM[BER] | CHAR | DATE | BINARY_FLOAT | BINARY_DOUBLE]
+ [FOR[MAT] format] [DEF[AULT] default] [PROMPT text | NOPR[OMPT]] [HIDE]
+
+
+SQL> acc salary number prompt 'please input sal: '
+please input sal: 3000
+SQL> select empno, sal from scott.emp
+  2  ;
+press Enter to continue...
+                                             职工信息表                                             
+                   工作编号         工资                                                            
+--------------------------- ------------                                                            
+                   7,369.00      $800.00                                                            
+                   7,499.00    $1,600.00                                                            
+                   7,521.00    $1,250.00                                                            
+                   7,566.00    $2,975.00                                                            
+                   7,654.00    $1,250.00                                                            
+                   7,698.00    $2,850.00                                                            
+                   7,782.00    $2,450.00                                                            
+                   7,788.00    $3,000.00                                                            
+                   7,839.00    $5,000.00                                                            
+                   7,844.00    $1,500.00                                                            
+                   7,876.00    $1,100.00                                                            
+                   7,900.00      $950.00                                                            
+                   7,902.00    $3,000.00                                                            
+                   7,934.00    $1,300.00                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2008/03/15                                                                                          
+
+已选择14行。
+
+已用时间:  00: 00: 00.84
+SQL> ttitle off
+SQL> btitle off
+SQL> /
+press Enter to continue...
+                   工作编号         工资                                                            
+--------------------------- ------------                                                            
+                   7,369.00      $800.00                                                            
+                   7,499.00    $1,600.00                                                            
+                   7,521.00    $1,250.00                                                            
+                   7,566.00    $2,975.00                                                            
+                   7,654.00    $1,250.00                                                            
+                   7,698.00    $2,850.00                                                            
+                   7,782.00    $2,450.00                                                            
+                   7,788.00    $3,000.00                                                            
+                   7,839.00    $5,000.00                                                            
+                   7,844.00    $1,500.00                                                            
+                   7,876.00    $1,100.00                                                            
+                   7,900.00      $950.00                                                            
+                   7,902.00    $3,000.00                                                            
+                   7,934.00    $1,300.00                                                            
+
+已选择14行。
+
+已用时间:  00: 00: 00.70
+SQL> select empno ,sa
+  2  
+SQL> select empno, sal
+  2  from scott.emp
+  3  where sal>&salary;
+原值    3: where sal>&salary
+新值    3: where sal>                   3,000.00
+where sal>                   3,000.00
+                              *
+第 3 行出现错误: 
+ORA-00933: SQL 命令未正确结束 
+
+
+已用时间:  00: 00: 00.04
+SQL> set numformat off
+SP2-0246: 非法的 FORMAT 字符串"off"
+SQL> /
+原值    3: where sal>&salary
+新值    3: where sal>##########
+where sal>##########
+          *
+第 3 行出现错误: 
+ORA-00911: 无效字符 
+
+
+已用时间:  00: 00: 00.01
+SQL> l
+  1  select empno, sal
+  2  from scott.emp
+  3* where sal>&salary
+SQL> accept salary number prompt 'please input sal: '
+please input sal: 3000
+SQL> select empno, sal
+  2  from scott.emp
+  3  where sal> &salary;
+原值    3: where sal> &salary
+新值    3: where sal> ##########
+where sal> ##########
+           *
+第 3 行出现错误: 
+ORA-00911: 无效字符 
+
+
+已用时间:  00: 00: 00.01
+SQL> /
+原值    3: where sal> &salary
+新值    3: where sal> ##########
+where sal> ##########
+           *
+第 3 行出现错误: 
+ORA-00911: 无效字符 
+
+
+已用时间:  00: 00: 00.01
+SQL> l
+  1  select empno, sal
+  2  from scott.emp
+  3* where sal> &salary
+SQL> accept salary number prompt 'please input sal: '
+please input sal: 3000
+SQL> l
+  1  select empno, sal
+  2  from scott.emp
+  3* where sal> &salary
+SQL> /
+原值    3: where sal> &salary
+新值    3: where sal> ##########
+where sal> ##########
+           *
+第 3 行出现错误: 
+ORA-00911: 无效字符 
+
+
+已用时间:  00: 00: 00.01
+SQL> c /&salary/3000
+  3* where sal> 3000
+SQL> /
+press Enter to continue...
+  工作编号         工资                                                                             
+---------- ------------                                                                             
+##########    $5,000.00                                                                             
+
+已用时间:  00: 00: 00.78
+SQL> col empno
+COLUMN   empno ON
+HEADING  '工作编号'
+SQL> col empno off
+SQL> col empno clear
+SQL> col sal clear
+SQL> l
+  1  select empno, sal
+  2  from scott.emp
+  3* where sal> 3000
+SQL> /
+press Enter to continue...
+     EMPNO        SAL                                                                               
+---------- ----------                                                                               
+########## ##########                                                                               
+
+已用时间:  00: 00: 00.79
+SQL> set numformat 999999
+SQL> /
+press Enter to continue...
+  EMPNO     SAL                                                                                     
+------- -------                                                                                     
+   7839    5000                                                                                     
+
+已用时间:  00: 00: 00.68
+SQL> accept salary number prompt 'please input sal: '
+please input sal: 3000
+SQL> l
+  1  select empno, sal
+  2  from scott.emp
+  3* where sal> 3000
+SQL> c /3000/&salary
+  3* where sal> &salary
+SQL> l
+  1  select empno, sal
+  2  from scott.emp
+  3* where sal> &salary
+SQL> /
+原值    3: where sal> &salary
+新值    3: where sal>    3000
+press Enter to continue...
+  EMPNO     SAL                                                                                     
+------- -------                                                                                     
+   7839    5000                                                                                     
+
+已用时间:  00: 00: 02.92
+SQL> spo off
