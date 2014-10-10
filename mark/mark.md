@@ -1,20 +1,23 @@
 Markdown中插入数学公式的方法
-[日期：2014-08-02] 来源：Linux社区  作者：xiahouzuoxin [字体：大 中 小]  
+===
+
+> [日期：2014-08-02] 来源：Linux社区  作者：xiahouzuoxin [字体：大 中 小]  
+
 自从使用Markdown以来，就开始一直使用Markdown+Github在写文章，整理自己的所学所思。本文亦是通过这种方式完成的。
 
 然而，Markdown自由书写的特性很好，唯独遇到数学公式时就要煞费苦心——每次都是先使用Latex书写(在线的Latex编辑器参考[1])，然后保存为图片，使用img标签进行引用，当公式很多的时候稍显复杂。
 
 本文的方法使用html的语法，调用[1]的公式生成API，在线生成Latex数学公式，免去将公式保存为图片的麻烦。当然，弊端也是有的，公式太多，可能会造成刷新比一般的网页慢一些。
 
-使用LiteIDE编写Markdown文档 http://www.linuxidc.com/Linux/2014-07/104664.htm
+- 使用LiteIDE编写Markdown文档 http://www.linuxidc.com/Linux/2014-07/104664.htm
 
-Remarkjs: 使用 Markdown 做幻灯 http://www.linuxidc.com/Linux/2014-04/99416.htm
+- Remarkjs: 使用 Markdown 做幻灯 http://www.linuxidc.com/Linux/2014-04/99416.htm
 
-Markdown编辑器CuteMarkEd的新功能 http://www.linuxidc.com/Linux/2014-02/96567.htm
+- Markdown编辑器CuteMarkEd的新功能 http://www.linuxidc.com/Linux/2014-02/96567.htm
 
-Markdown 语法说明 http://www.linuxidc.com/Linux/2013-09/90719.htm
+- Markdown 语法说明 http://www.linuxidc.com/Linux/2013-09/90719.htm
 
-Linux下Markdown的安装及常用语法 http://www.linuxidc.com/Linux/2013-09/90718.htm
+- (Linux下Markdown的安装及常用语法)[http://www.linuxidc.com/Linux/2013-09/90718.htm]
 
 方法一：使用Google Chart的服务器
 
@@ -36,7 +39,7 @@ forkosh上提供了关于Latex公式的一份简短而很有用的帮助，参�
 
 使用forkosh插入公式的方法是
 
-<img src="http://www.forkosh.com/mathtex.cgi? 在此处插入Latex公式">
+> <img src="http://www.forkosh.com/mathtex.cgi? 在此处插入Latex公式">
 
 给个例子，
 
