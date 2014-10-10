@@ -17,7 +17,7 @@ Markdown中插入数学公式的方法
 
 - Markdown 语法说明 http://www.linuxidc.com/Linux/2013-09/90719.htm
 
-- (Linux下Markdown的安装及常用语法)[http://www.linuxidc.com/Linux/2013-09/90718.htm]
+- [Linux下Markdown的安装及常用语法](http://www.linuxidc.com/Linux/2013-09/90718.htm)
 
 方法一：使用Google Chart的服务器
 
