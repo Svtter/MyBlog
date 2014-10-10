@@ -21,7 +21,7 @@ Markdown中插入数学公式的方法
 
 方法一：使用Google Chart的服务器
 
-<img src="http://chart.googleapis.com/chart?cht=tx&chl= 在此插入Latex公式" style="border:none;">
+`<img src="http://chart.googleapis.com/chart?cht=tx&chl= 在此插入Latex公式" style="border:none;">`
 
 一个例子，
 
@@ -39,7 +39,7 @@ forkosh上提供了关于Latex公式的一份简短而很有用的帮助，参�
 
 使用forkosh插入公式的方法是
 
-> <img src="http://www.forkosh.com/mathtex.cgi? 在此处插入Latex公式">
+`<img src="http://www.forkosh.com/mathtex.cgi? 在此处插入Latex公式">`
 
 给个例子，
 
